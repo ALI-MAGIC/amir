@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoolsWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3afacf2a5d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Picture/3x-1.png" type="image/x-icon">
+</head>
+
+<body>
+    <i onclick="opennav()" class="hamberg bar fa-solid fa-bars"></i>
+    <nav class="navbar">
+        <ul>
+            <a href="#Aboutme">
+                <li class="item">درباره من</li>
+            </a>
+            <a href="#myser">
+                <li class="item">خدمات من</li>
+            </a>
+            <a href="#mahart">
+                <li class="item">مهارت ها</li>
+            </a>
+            <a href="#pruj">
+                <li class="item">پروژها</li>
+            </a>
+            <a href="#container4">
+                <li class="item">ارتباط</li>
+            </a>
+        </ul>
+    </nav>
+    <nav class="sidebar">
+        <ul>
+            <a href="#Aboutme">
+                <li onclick="closenav()" class="item">درباره من</li>
+            </a>
+            <a href="#myser">
+                <li onclick="closenav()" class="item">خدمات من</li>
+            </a>
+            <a href="#mahart">
+                <li onclick="closenav()" class="item">مهارت ها</li>
+            </a>
+            <a href="#pruj">
+                <li onclick="closenav()" class="item">پروژه ها</li>
+            </a>
+            <a href="#container4">
+                <li onclick="closenav()" class="item">ارتباط</li>
+            </a>
+        </ul>
+        <i onclick="closenav()" class="x fa-solid fa-xmark"></i>
+    </nav>
+    <script>
+        function opennav() {
+            const side = document.querySelector(".sidebar");
+            side.style.display = "flex";
+        }
+        function closenav() {
+            const side = document.querySelector(".sidebar");
+            side.style.display = "none";
+        }
+    </script>
+    <br><br><br><br>
+    <div class="titre">
+        <h4>FoolsWeb</h4>
+    </div>
+    <div class="sction">
+        <div class="container px-4 text-end">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-3">
+                        <img class="img1" src="Picture/man.png" alt="AmirPourgasem">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3">
+                        <div id="Aboutme">
+                            <h3 dir="rtl">امیر پورقاسم</h3>
+                            <p dir="rtl">من علاقه زیادی به طراحی UI/UX و طراحی وب دارم. من یک توسعه دهنده ماهر front-end
+                                و
+                                استاد
+                                ابزارهای طراحی گرافیکی مانند Photoshop و Sketch هستم. من یک یادگیرنده سریع و یک کارگر
+                                تیم
+                                هستم
+                                که کار را انجام می دهم. من به راحتی می توانم از میوه های کم آویزان استفاده کنم و به سرعت
+                                تحویل
+                                به موقع را برای طرحواره های زمان واقعی به حداکثر برسانم.</p><br>
+                            <p dir="rtl">سن:<span>17</span></p>
+                            <p dir="rtl">ایمیل:<span>hiroa8910@gmail.com</span></p>
+                            <p dir="rtl">اسکایپ:<span>AmirPourgasem</span></p>
+                            <p dir="rtl">تلفن :<span>09933862706</span></p>
+                            <p dir="rtl">ادرس :استان البرز,کرج فردیس</p>
+                            <p dir="rtl">وضعیت :درحال تحصیل</p>
+                           <button class="btn"><a href="Amir.pdf">دانلود </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="My-Services">
+            <div id="myser">
+                <h2>خدمات من</h2>
+                <br>
+                <p class="p2">من خدمات مناسب برای هر وب سایت یا برنامه ارائه می دهم. من می توانم به سرعت تحویل به موقع
+                    را
+                    برای
+                    طرحواره های بلادرنگ به حداکثر برسانم.</p>
+                <br><br>
+                <div class="boxx">
+                    <div id="box1">
+                        <a href="shorts/app-del.html"><img src="Picture/app-development.svg" alt=""></a>
+                    </div>
+                    <div id="box2">
+                        <a href="shorts/graphic-design.html"><img src="Picture/graphic-design.svg" alt=""></a>
+                    </div>
+                    <div id="box3">
+                        <a href="shorts/ui-ux.html"> <img src="Picture/ui-ux.svg" alt=""></a>
+                    </div>
+                    <div id="box4">
+                        <a href="shorts/web-design.html"><img src="Picture/web-design.svg" alt=""></a>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <div id="mahart">
+                <h2>مهارت های من</h2><br>
+                <div class="container px-4 text-start">
+                    <div class="row gx-5">
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="container">
+                                    <p class="html"> Html: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:85%"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+
+                                    <p class="css"> css: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:65%"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+
+                                    <p class="js"> js: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="container">
+                                    <p class="html">C#: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:70%"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <p class="css">Python: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:65%"></div>
+                                    </div>
+                                </div>
+                                <div class="container">
+
+                                    <p class="js">Php: </p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:35%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br><br>
+            <h2>پروژه ها</h2>
+            <br>
+            <div id="pruj">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Picture/Foolsweb.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="foolsweb.ir/shop1.html"> کلیک کنید </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Picture/login.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="login/Login.html"> کلیک کنید </a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 18rem;">
+                                <img src="Picture/navbar.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <a href="navbar/index.html"> کلیک کنید </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+            </div>
+            <div id="container4">
+                <div class="container4">
+                    <h1>ارتباط با ما</h1>
+                    <div class="inputs1">
+                        <input type="email" placeholder="ایمیل" />
+                        <input type="text" placeholder="نام" />
+                    </div>
+                    <div class="discrip">
+                        <textarea class="discriptions" type="text" name="" id=""
+                            placeholder="توضیحات خودرا اضافه کنید..."></textarea>
+                        <button>تایید</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <footer>
+                    <p>&copy;کليه حقوق اين سايت متعلق به مدرسه یهارالعوم می‌باشد (FoolsWeb) </p>
+                </footer>
+
+            </div>
+</body>
+
+</html>
